@@ -2,7 +2,7 @@ name: Run Counter Every 5 Minutes
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
